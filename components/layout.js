@@ -41,7 +41,7 @@ export default function Layout({ children }) {
 
         <div id="footer">
           <p>
-            This site is lovingly by and large handmade in Copenhagen, Denmark.
+            This site is lovingly by and large handmade in Copenhagen, Denmark. &copy; 2020.
           </p>
         </div>
       </div>
