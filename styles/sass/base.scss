@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&family=IBM+Plex+Sans:ital,wght@0,400;0,700;1,400&display=swap');
+
+
+
+* {
+  box-sizing: border-box;
+}
+#images, #links, #about, #colophon {
+  float: left;
+  width: 50%;
+  padding: .8em;
+}
+#content {
+  width: 70%;
+  margin: auto;
+  &::after {
+      content: "";
+      display: table;
+      clear: both;
+  }
+}
+#footer {
+  margin: auto;
+  float:right;
+}
+@media screen and (max-width: 768px) {
+  #images, #links, #about, #colophon {
+    width: 100%;
+  }
+  #content {
+    width: 100%;
+  }
+}
+@media screen and (max-width: 1024px) {
+  #content {
+    width: 90%;
+  }
+}

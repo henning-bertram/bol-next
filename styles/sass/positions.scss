@@ -1,0 +1,32 @@
+#header {
+        h1 {
+            text-align: center;
+        }
+        p {
+          text-align: center;
+        }
+}
+#footer p {
+  margin-top: 3em;
+}
+ul {
+  list-style: none;
+}
+li {
+  margin-bottom: 1em;
+}
+img {
+  max-width: 100%;
+  border: 1px solid $image-border-color;
+}
+figure {
+   margin-bottom: 1em;
+ }
+
+ h2 {
+   margin-left: 1.5em;
+ }
+
+ #about p, #colophon p {
+   margin-left: 2.5em;
+ }

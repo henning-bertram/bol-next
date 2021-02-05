@@ -1,0 +1,41 @@
+#links a {
+  color: $base-link-color;
+  border-bottom: 1px dashed $base-link-border-color;
+  text-decoration: none;
+}
+
+
+#links a:hover {
+  color: $hover-color;
+  border-bottom: 1px solid $hover-border-color;
+}
+
+
+figcaption a {
+  text-decoration: none;
+}
+
+#header p a {
+  text-decoration: none;
+  color: $base-link-color;
+}
+
+#header p a:hover {
+  border-bottom: 1px solid $base-link-border-color;
+}
+
+#footer p a {
+  color: $branding-link-color;
+}
+
+#links a.morelink,  a.morelink {
+  color: $base-link-color;
+  text-decoration: none;
+  font-weight: normal;
+  border-bottom: 0;
+}
+
+
+#links a.morelink:hover, a.morelink:hover {
+  border-bottom: 1px solid $base-link-border-color;
+}

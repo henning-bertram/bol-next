@@ -1,0 +1,8 @@
+$heading-color: hsl(0, 84%, 51%);
+$header-base-color: complement($heading-color);
+$base-link-color: #3D9970;
+$base-link-border-color: complement($base-link-color);
+$hover-color: complement($base-link-color);
+$hover-border-color:lighten(complement($base-link-border-color),.8);
+$branding-link-color: navy;
+$image-border-color: lightgray;
